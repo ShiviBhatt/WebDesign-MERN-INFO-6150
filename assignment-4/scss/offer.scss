@@ -1,0 +1,41 @@
+// Offer scss
+.offer {
+    background-color: $green-color;
+    height: 200px;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----Offer Text Formatting --- */
+.offer-text {
+    color: var(--white);
+    font-size: 1.5em;
+    font-family: $font-family-Roboto;
+}
+
+/* ----Offer Button Formatting--- */
+.offer-button {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+    background-color: var(--white);
+    color: $green-color;
+}
+
+.offer-button-margin {
+    margin-left: 100px;
+}
+
+/* ----Offer Button Hover effects--- */
+.offer-button:hover {
+    color: white;
+    background-color: var(--text-gray);
+    border: 1px solid var(--white);
+}
+
+/* ------x-------Offer CSS--------x------- */

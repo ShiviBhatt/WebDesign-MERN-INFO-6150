@@ -1,0 +1,11 @@
+/* Follwoing function returns sum of values*/
+@function sum($number...){
+  @if length($number == 2){
+    @return nth($number,1)+ nth($number,2);
+  }
+  $var: 0;
+  @for $val from 0 to 9 {
+    $var : $var+ $val;
+  }
+  @return $val;
+}

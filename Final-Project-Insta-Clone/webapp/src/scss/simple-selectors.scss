@@ -1,0 +1,209 @@
+/*Inheritance in sass*/
+%display-flex{
+  display: flex;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.light-bg{
+  background-color: #fafafa;
+}
+
+.justify-space-evenly{
+  @extend %display-flex;
+  justify-content: space-evenly;
+}
+
+.justify-space-around{
+  @extend %display-flex;
+  justify-content: space-around;
+}
+
+.justify-content-center{
+  @extend %display-flex;
+  justify-content: center;
+}
+
+.full-width{
+  width: 100%;
+}
+
+
+/* Nav bar */
+.brand-logo,h2{
+    font-family: 'Grand Hotel', cursive;
+  }
+
+canvas{
+    position: fixed;
+    left: 50%;
+    top: 48%;
+    height: 109vh;
+    width: 109vw;
+    transform: translate(-50%, -50%);
+}
+
+.postImage{
+  height: 743px;
+}
+
+  .profileContainer{
+    width: 975px;
+}
+
+.user-profile-pic{
+  width:160px;
+  height:160px;
+  border-radius:80px;
+}
+.profile{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+    .profilePic{
+        label:hover{
+             cursor: pointer;
+        }
+        input{
+            display: none;
+        }
+    }
+
+    .profileData{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .profileContainer{
+      width: 90%;
+    }
+  }
+
+.commentLabel{
+    font-weight: 600;
+}
+
+.post-name {
+  padding: 5px;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a{
+      font-weight: 600;
+      font-size: 20px;
+      color: black;
+      margin-left: 10px;
+  }
+
+  img{
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+  }
+  .userDetails{
+      align-items: center;
+      display: flex;
+  }
+}
+
+.color-blue{
+  a{
+      color: $color-blue !important; 
+  }
+}
+
+.post-card{
+  margin:10px auto;
+  max-width:500px;
+  padding:20px;
+  text-align:center;
+}
+
+.collection {
+  border: none;
+  .collection-item{
+      color: black;
+  }
+}
+
+.modal-footer{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 7px 15px;
+}
+
+.errorClass{
+  background-color: #a93431;
+  color: white;
+}
+
+.successClass{
+  background-color: #43a047;
+  color: white;
+}
+
+.postLike{
+  display: flex;
+  align-items: center;
+}
+
+.effect{
+  margin-left: 8px;
+}
+  /* Card styles*/
+.mycard{
+  position: fixed;
+  left: 50%;
+  top: 48%;
+  /* height: 109vh; */
+  /* width: 109vw; */
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 700px) {
+  .mycard{
+    width: 70%;
+  }
+}
+
+ .home-card{
+    width: 616px;
+    border-radius: 3px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+ } 
+
+ @media screen and (max-width: 700px) {
+  .home-card{
+    width: 90%;
+  }
+}
+.auth-card{
+    padding: 36px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+  }
+
+.gallery{
+  @extend %display-flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.item{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 25px;
+}
+
+.loggedOut{
+  width: 175px;
+}

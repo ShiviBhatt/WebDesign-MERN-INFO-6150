@@ -1,0 +1,11 @@
+/* No padding margin*/
+@mixin noPadMargin{
+    margin: 0;
+    padding: 0;
+}
+
+/* box shadow, value in pixels*/
+@mixin box-shadow($val){
+    box-shadow: $val;
+    -moz-window-shadow: $val;
+}

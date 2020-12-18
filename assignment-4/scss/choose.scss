@@ -1,0 +1,55 @@
+// -----------Choose SCSS added 
+
+
+
+// Nested Selectors
+
+/* ----Parent Class--- */
+.pick-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .pick {
+        width: 340px;
+        padding-left: double($lg);
+        padding-right: double($lg);
+    }
+
+    /* ----Why Choose Images--- */
+    .pick-img {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+
+    /* ----Why Chooose Text--- */
+    .pick-text {
+        font-size: 1.6em;
+        font-family: var(--Lexend);
+        color: $green-color;
+        text-align: center;
+        margin: 0;
+    }
+
+    /* ----Why Choose Description */
+    .pick-desc {
+        font-size: 0.7em;
+        font-family: $font-family-Roboto;
+        color: var(--text-grey);
+        text-align: center;
+        margin-top: 0;
+    }
+
+}
+
+
+
+
+
+
+
+/* --x----Choose css---x------ */

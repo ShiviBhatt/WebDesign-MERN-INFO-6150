@@ -1,0 +1,181 @@
+// ------spreadsheet scss------------------
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: rgb(248,248,248);
+}
+// Main content styling
+.mainContainer {
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+// header styling
+// header {
+//     padding: 20px 25px;
+//     background-color: #0F9D58;
+// }
+// Header text styling
+header p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    font-size: 2em;
+    line-height: 32px;
+    color: #0F9D58;
+    margin-left: 22em;
+    margin-top: 40px;
+}
+// Container styling
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+// Table styling
+table {
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid;
+}
+
+td:first-child {
+    font-weight: bold;
+    text-align: center;
+    padding: 0 5px;
+}
+
+// input type styling
+input[type="text"] {
+    border: 0;
+    background-color: #fbfbfb;
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: 0;
+}
+
+#table {
+    margin-bottom: 20px;
+}
+
+input[type="button"], input[type="submit"] {
+    border: 0;    
+    padding: 12px 20px;   
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    background-color:  #0F9D58;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: #0F9D58;
+    color: white; 
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    padding: 5px 20px;
+}
+
+//export csv 
+#exportTableToCSV {
+    margin-bottom: 20px;
+    // float: right;
+    margin-right: 0;
+}
+
+// import csv style
+#importTableToCSV {
+    margin-bottom: 20px;
+    float: right;    
+}
+
+input.styleBtn {
+    background-repeat: no-repeat;
+    background-position: 8px 6px;
+    border: none;
+    cursor: pointer;    
+    // vertical-align: middle;
+    border-radius: 25px;
+}
+
+.highlight {
+    border: 1px solid;
+}
+
+.selected input {
+    background-color: #AFFFDF;
+    color: whitesmoke;
+}
+
+.formula input {   
+    color: black;
+}
+// highlight
+
+.highlight input {
+    background-color:whitesmoke;
+    color: #fff;
+}
+
+.inputFile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+    z-index: -1;
+    border-radius: 25px;
+}
+//csv file label
+.inputFile + label {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: white;
+    background-color:  #0F9D58;
+    display: inline-block;
+    padding: 10px 20px;
+    // margin-left: 14em;
+    border-radius: 25px;
+}
+
+.inputFile:focus + label,
+.inputFile + label:hover {
+    background-color:  #0F9D58;
+}
+// Cursor
+.inputFile + label {
+	cursor: pointer; 
+}
+
+.refresh-btn{
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    cursor: pointer;    
+    vertical-align: middle;
+    border-radius: 25px;
+    border: 0;    
+    padding: 12px 20px;   
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    background-color:  #0F9D58;
+    margin-top: 0px;
+
+}
+// ---x---spreadsheet scss------x------------

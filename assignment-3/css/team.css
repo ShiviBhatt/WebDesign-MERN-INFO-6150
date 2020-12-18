@@ -1,0 +1,51 @@
+/* ----Team CSS----- */
+.team-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -----Team Image formatting ----- */
+.team-img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.team {
+    width: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* ---Team Description Formatting--- */
+.team-desc {
+    font-size: 0.8em;
+    font-family: var(--Lexend);
+    color: var(--text-grey);
+    text-align: center;
+    margin-top: 0;
+}
+
+/*---- Team Text Formatting---- */
+.team-text {
+    font-size: 1.0em;
+    font-family: var(--Lexend);
+    color: var(--text-green);
+    text-align: center;
+    margin: 0;
+}
+
+.team-margin {
+    margin-bottom: 60px;
+}
+
+p::after {
+    font-size: 0.8em;
+    font-family: var(--Lexend);
+    color: var(--text-grey);
+    text-align: center;
+    margin-top: 0;
+}
+
+/* --x--Team CSS---x-- */

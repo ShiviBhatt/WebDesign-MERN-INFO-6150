@@ -1,0 +1,58 @@
+// Pricing SCSS
+.pricing {
+    width: 175px;
+    background-color: white;
+    text-align: center;
+    font-family: var(--Lexend);
+    margin-top: 0;
+    padding-top: double($lg);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*----- Pricing Table Formatting------ */
+.pricing-span-text {
+    color: var(--text-grey);
+    font-size: 0.4em;
+}
+
+.pricing-span-text-big {
+    color: var(--text-grey);
+    font-size: 1.6em;
+}
+
+/* ---Price Line formatting---- */
+.pricing-line {
+    width: 100px;
+    height: 2px;
+    border-width: 0;
+    color: #efefef;
+    background-color: #efefef;
+}
+
+/* ---Pricing Header Formatting ------- */
+.pricing-header-text {
+    color: $green-color;
+}
+
+.ques-img-2-small {
+    height: 30px;
+    width: 30px;
+}
+
+/* -----Pricing Button Formatting---- */
+.buy-now {
+    width: 175px;
+    background-color: $green-color;
+    color: white;
+    border-width: 0;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+/* ----Pricing Table Hover Effecting---- */
+.pricing:hover {
+    border: 2px solid $green-color;
+}
+
+/* --x---Pricing CSS----x------ */

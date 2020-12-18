@@ -1,0 +1,23 @@
+{
+  "name": "assignment-7-shivi-bhatt",
+  "version": "1.0.0",
+  "description": "assignment-7-shivi-bhatt created by GitHub Classroom",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/main.scss --output dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2020/assignment-7-shivi-bhatt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-shivi-bhatt/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-shivi-bhatt#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "rxjs": "^6.6.3"
+  }
+}

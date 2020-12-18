@@ -1,0 +1,190 @@
+ // ---------- todo scss----------------
+
+ // Text Header
+ .text-header {
+     margin-top: 80px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     width: 100%;
+
+ }
+
+ .text-header h3 {
+     margin-left: 120px;
+     color: #585859;
+     text-transform: uppercase;
+ }
+
+ // Form Container
+ .form-container {
+     margin-top: 80px;
+     margin-left: 100px;
+ }
+
+ .input {
+     min-height: 40px;
+     width: 300px;
+     margin-bottom: 15px;
+     border: 2px solid #444;
+ }
+
+ //  Button Styling 
+ .button-style {
+     margin-left: 40px;
+     margin-top: 20px;
+
+
+     // nested work
+     .btn-submit {
+         width: 70px;
+         height: 25px;
+         margin-right: 20px;
+         border: none;
+         outline: none;
+         color: #585859;
+
+         &:hover {
+             color: #00ab66;
+         }
+     }
+
+     .btn-reset {
+         width: 70px;
+         height: 25px;
+         border: none;
+         outline: none;
+         color: #585859;
+
+
+         &:hover {
+             color: #00ab66;
+         }
+     }
+ }
+
+ // Common button styling for all buttons
+ button {
+     background: none;
+     border: 0px;
+     color: #444;
+     font-size: 20px;
+     width: 60px;
+     margin: 10px 0 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     cursor: pointer;
+     outline: none;
+     padding: 25px;
+
+     &:hover {
+         color: #00ab66;
+     }
+ }
+
+ .todo-header {
+     margin-top: 50px;
+     margin-left: 145px;
+     margin-bottom: 20px;
+     text-transform: uppercase;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .todo-item-header {
+
+     margin-top: 50px;
+     margin-left: 155px;
+     text-transform: uppercase;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ // add new button styling
+ .add-new-todo-button {
+     padding: 20px;
+     width: 250px;
+     margin-left: 100px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     text-transform: uppercase;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ // complete list strike off styling
+ #complete-list label {
+     text-decoration: line-through;
+     color: #888;
+ }
+
+ // dynamic generated table styling
+ table {
+     width: 75%;
+     margin-left: 30px;
+     padding-left: 20px;
+     margin-right: 40px;
+     border-left: black dotted 2px;
+
+     >tr {
+         height: 30px;
+
+         td:first-child {
+             width: 40%;
+             font-weight: bold;
+
+         }
+
+         &:hover {
+             background-color: #888;
+             color: white;
+         }
+     }
+
+ }
+
+ ul {
+     padding-left: 0px;
+
+     button {
+         font-size: 15px;
+     }
+
+ }
+
+ // Dynamic generated element styling
+ li {
+
+     overflow: hidden;
+     padding: 20px 0;
+     border-bottom: 2px solid #eee;
+
+     * {
+         float: left;
+     }
+
+     input[type="checkbox"] {
+         margin: 0 10px;
+         position: relative;
+         top: 15px;
+     }
+
+     >label {
+         font-size: 18px;
+         line-height: 40px;
+         width: 180px;
+         padding: 0 0 0 11px;
+     }
+
+     >button {
+         height: 40px;
+         margin: inherit;
+         padding: unset;
+
+         &:hover {
+             color: #00ab66;
+         }
+     }
+ }
+
+ li,
+ h3 {
+     clear: both;
+     list-style: none;
+ }
+
+ // -----x----- todo scss-----x-----------

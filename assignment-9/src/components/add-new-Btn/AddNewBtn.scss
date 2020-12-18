@@ -1,0 +1,21 @@
+// --------------------Add New Button SCSS --------------
+.addBtn{
+    padding: 5px 0px;
+    button{
+        width: 150px;
+        background-color: #0a50257a;
+        height: 30px;
+        outline: none;
+        border:none;
+        cursor: pointer;
+        color: white;
+    
+        &:hover{
+            box-shadow: 1px 0px 5px black;
+        }
+        &:active{
+            font-weight: bold;
+        }
+    }
+
+}

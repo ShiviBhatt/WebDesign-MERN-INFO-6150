@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="dist/main.css" />
+  </head>
+
+  <body>
+    <!-- ------------Header------------------- -->
+    <header>
+      <nav class="nav-border">
+        <div class="nav">Todo List App</div>
+      </nav>
+    </header>
+    <!-- ------x------Header---------x---------- -->
+    <!-- ---------------------Main Container ----------------------->
+    <div class="main-container">
+      <!------------------------ New Todo --------------------->
+      <div id="add-new" class="new-container">
+        <div class="text-header">
+          <h3>Create New To-do List</h3>
+
+          <!----------- Form ---------------------------------->
+          <div class="form-container">
+            <form class="form">
+              <input
+                class="input"
+                id="title-input"
+                required="true"
+                type="text"
+                placeholder="Title"
+              />
+              <br />
+              <input
+                class="input"
+                id="description-input"
+                required="true"
+                type="text"
+                placeholder="Description"
+              />
+              <br />
+              <input
+                class="input"
+                id="date-input"
+                required="true"
+                type="date"
+              /><br />
+              <input class="input" id="time-input" required type="time" /><br />
+              <div class="button-style">
+                <button class="btn-submit" id="add-btn" type="submit">
+                  ADD
+                </button>
+                <button class="btn-reset" id="reset-btn" type="reset">
+                  RESET
+                </button>
+              </div>
+            </form>
+          </div>
+          <!-----x- Form -x------------------------------------>
+        </div>
+        <!------------x New Todo -x---------------------------->
+      </div>
+      <!-- todo Container -->
+      <div id="todo-container" class="todo-container">
+        <div>
+          <div class="todo-item-header">
+            <h3>Todo Items List</h3>
+          </div>
+          <ul id="todo-list">
+            <!-- Below items are added dynamically by js file -->
+            <!-- <li>
+                        <input type="checkbox">
+                        <label>test</label>
+                        <button class="view"> View </button>
+                        <button class="delete"> Delete </button>
+                    </li>
+                    <div id="detail-view-div">
+                        <p> Title: <label></label></p>
+                        <p> Description: <label></label></p>
+                        <p> Date: </p>
+                        <p> Time: </p>
+                        <p> Status: </p>
+                    </div> -->
+          </ul>
+        </div>
+
+        <!-- Complete Todo -->
+
+        <div>
+          <div class="todo-header">
+            <h3>Complete Items List</h3>
+          </div>
+          <ul id="complete-list">
+            <!-- Below items are added dynamically by js file -->
+            <!-- <li>
+                    <input type="checkbox">
+                    <label>test</label>
+                    <button> View </button>
+                    <button> Delete </button>
+                </li> -->
+          </ul>
+        </div>
+
+        <button class="add-new-todo-button" id="add-new-btn">
+          + Add New Item
+        </button>
+
+        <!------------x----------- Complete Todo ------------x-------->
+      </div>
+
+      <!---x---- -----------------todo Container --------------x----->
+    </div>
+    <!----------x Main Container x----------------------------------->
+    <footer>
+      <nav class="foot-border">
+        <div class="nav"></div>
+      </nav>
+    </footer>
+    <!--------------- Custom Todo JavaScript------------ -->
+    <script src="js/async-todo.js"></script>
+    <!-------x-------- Custom Todo JavaScript-----x------- -->
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "assignment-4-shivi-bhatt",
+  "version": "1.0.0",
+  "description": "#### Requirements - Add layout for Assignment 3 web page as per the mock image and convert CSS to SCSS syntax.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/main.scss --output dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2020/assignment-4-shivi-bhatt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2020/assignment-4-shivi-bhatt/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2020/assignment-4-shivi-bhatt#readme",
+  "dependencies": {
+    "node": "^14.13.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.11"
+  },
+  "devDependencies": {}
+}

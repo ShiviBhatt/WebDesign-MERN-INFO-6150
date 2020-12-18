@@ -1,0 +1,80 @@
+/* -------Contact Us------ */
+.foot-main {
+    background-color: var(--bg-color);
+    margin-bottom: 100px;
+}
+
+.foot-parent {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* ---Brand Name--- Clean Now--- */
+.brand-contact {
+    margin-right: 40px;
+}
+
+.brand-text {
+    font-size: medium;
+    color: var(--text-green);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ----Brand Description Formatting ---- */
+.brand-desc,
+.copy-right,
+.brand-link {
+    font-size: 0.7em;
+    color: var(--text-grey);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.quesMarkclasss {
+    color: var(--text-green);
+    height: 4px;
+}
+
+/*--- Brand Item Class--- */
+.brand-items {
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+.brand-quick-view {
+    width: 100px;
+}
+
+/* ----Brand Quick View as Header---- */
+.brand-quick-view-text {
+    font-size: 0.8em;
+    color: var(--text-footer);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.brand-right-margin {
+    width: 40px;
+}
+
+.services-quick-view {
+    width: 140px;
+}
+
+.contact-us-text-margin {
+    margin-bottom: 10px;
+}
+
+.grayish-black {
+    color: #3c3f49;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ----Hover Effects on href */
+a:hover {
+    color: var(--text-green);
+}
+
+/* --x----Contact Us------x- */

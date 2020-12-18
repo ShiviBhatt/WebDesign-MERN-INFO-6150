@@ -1,0 +1,156 @@
+// cleaning services
+
+.cleaning-services {
+    background-color: var(--bg-color);
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/* ---Cleaning Services Text--- */
+.service-text {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-family: $font-family-Roboto;
+}
+
+.service-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----Residential Cleaning Services  Text---- */
+.residentail-text {
+    color: $green-color;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-left: .8em;
+    margin-bottom: 0.5em;
+    font-family: $font-family-Roboto;
+}
+
+/* ----Commercial Cleaning Services  Text---- */
+.commercial-text {
+    color: $green-color;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-left: .8em;
+    margin-bottom: 0.5em;
+    font-family: $font-family-Roboto;
+}
+
+/* ----Office Cleaning Services  Text---- */
+.office-text {
+    color: $green-color;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-left: .8em;
+    margin-bottom: 0.5em;
+    font-family: $font-family-Roboto;
+}
+
+/* ----Seasonal Cleaning Services  Text---- */
+.seasonal-text {
+    color: $green-color;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-left: .8em;
+    margin-bottom: 0.5em;
+    font-family: $font-family-Roboto;
+}
+
+/* -----Cleaning Services Images---- */
+.residentail-img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.commercial-img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+
+.office-img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+
+.seasonal-img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+/* ----Cleaning Service Descriptions---- */
+.residentail-desc {
+    font-size: 0.7em;
+    /* font-family: var(--Lexend); */
+    font-family: $font-family-Roboto;
+    color: var(--text-grey);
+    text-align: left;
+    margin-left: 1em;
+    margin-top: 0;
+}
+
+.commercial-desc {
+    font-size: 0.7em;
+    /* font-family: var(--Lexend); */
+    font-family: $font-family-Roboto;
+    color: var(--text-grey);
+    text-align: left;
+    margin-left: 1em;
+    margin-top: 0;
+}
+
+.office-desc {
+    font-size: 0.7em;
+    /* font-family: var(--Lexend); */
+    font-family: $font-family-Roboto;
+    color: var(--text-grey);
+    text-align: left;
+    margin-left: 1em;
+    margin-top: 0;
+}
+
+.seasonal-desc {
+    font-size: 0.7em;
+    /* font-family: var(--Lexend); */
+    font-family: $font-family-Roboto;
+    color: var(--text-grey);
+    text-align: left;
+    margin-left: 1em;
+    margin-top: 0;
+}
+
+/* ---Cleaning Service Button---- */
+main .cleaning-services .btn {
+    font-family: var(--Lexend);
+    background: $green-color;
+    color: var(--white);
+    display: block;
+    overflow: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ---Cleaning Service Button Hover effects---- */
+main .cleaning-services .btn:hover {
+    color: var(--text-gray);
+    background-color: $green-color;
+    border: 1px solid var(--white);
+}
+
+.cleaning-service-margin-bottom {
+    margin-bottom: 50px;
+}
+
+/*---x---- Cleaning Services---x-- */

@@ -1,0 +1,152 @@
+/** Global Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+    min-width: 500px;
+}
+
+h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    z-index: 1;
+}
+
+body{
+    @include noPadMargin;
+    box-sizing: border-box;
+    font-family: ui-monospace;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    //color: $color-black;
+}
+
+/* navbar styles */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 105px 0 105px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    // min-width: 1024px;
+    z-index: 9997;
+    position: fixed;
+    background-color: rgba(29,29,31,0.72);
+    a{
+        font-size: 20px !important;
+        color: $color-white !important;
+    }
+    .nav-wrapper {
+        position: none;
+    }
+}
+
+.nav-btn{
+    display: flex;
+    // width: 260px;
+    justify-content: space-between;
+}
+
+
+.landing{
+    background: #000000;
+    height: 500vh;
+}
+
+.instaLogo{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 100px;
+    top: 7px;
+    z-index: 1;
+}
+
+.home{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Button styles*/
+.btn{
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.btn-color {
+    background-color: $color-blue !important;
+}
+
+.btn-white {
+    color: $color-black;
+    background-color: $color-white;
+
+}
+.post-name {
+    padding: 5px;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        font-weight: 600;
+        font-size: 20px;
+        color: black;
+        margin-left: 10px;
+    }
+
+    img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+    }
+    .userDetails{
+        align-items: center;
+        display: flex;
+    }
+}
+
+.color-blue{
+    a{
+        color: $color-blue !important; 
+    }
+}
+
+.nav-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-card{
+    margin:10px auto;
+    max-width:500px;
+    padding:20px;
+    text-align:center;
+}
+
+.collection {
+    border: none;
+    .collection-item{
+        color: black;
+    }
+}
+
+.modal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 7px 15px;
+}

@@ -1,0 +1,52 @@
+/*-----------Cover --------------*/
+.cover {
+    background: url('../assets/cover-background.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: var(--Lexend);
+    height: 500px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.cover-background {
+    width: 100%;
+    height: 68%;
+    padding-top: 10rem;
+    color: var(--white);
+}
+
+.cover-content {
+    width: 400px;
+    margin-left: 25%;
+}
+
+/*---- Cover Button---- */
+main .cover .btn {
+    margin-top: 1.1em;
+    font-family: var(--Lexend);
+    background: var(--white);
+    color: var(--text-green);
+}
+
+/* ---Cover Button Hover---- */
+main .cover .btn:hover {
+
+    border: 1px solid var(--white);
+    color: var(--text-grey);
+}
+
+/* --cover Headline--- */
+.cover-headline {
+    font-size: 0.9em;
+    margin: 0;
+
+}
+
+.cover-sub-headline {
+    font-size: 0.3em;
+}
+
+/*-----x------Cover --------x------*/

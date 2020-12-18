@@ -1,0 +1,71 @@
+// Latest Blog SCSS
+/* ---Latest Blog CSS----- */
+.blog {
+    width: 225px;
+    padding: 8px;
+}
+
+/* ----Latest Blog Images--- */
+.blog-image {
+    width: 220px;
+    height: 150px;
+
+}
+
+.blog-image2 {
+    width: 220px;
+    height: 149px;
+
+}
+
+.blog-image3 {
+    width: 220px;
+    height: 150px;
+}
+
+/* ---Latest Blog Date--- */
+.blog-date-text {
+    color: var(--text-grey);
+    font-size: 0.7em;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ----Latest Blog Headline */
+.blog-header {
+    font-size: 0.7em;
+    margin: 0px;
+    padding: 0px;
+    color: $green-color;
+    font-family: $font-family-Roboto;
+}
+
+/* ----Latest Blog Description--- */
+.blog-desc {
+    color: var(--text-grey);
+    font-size: 0.7em;
+    margin: 0px;
+    padding: 1px;
+    font-family: $font-family-Roboto;
+}
+
+/* ----Latest Blog Author Name */
+.blog-author {
+    display: flex;
+    align-items: center;
+}
+
+.blog-author-text {
+    color: black;
+}
+
+.gray-dot {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-left: -8px;
+    margin-top: 5px;
+}
+
+/* ----x---atest Blog CSS--x--- */

@@ -1,0 +1,66 @@
+// ---------------------------margin and padding of all items are set here-----------------
+.item-div{
+    margin:5px 0px;
+    padding:5px;
+}
+
+//red and green border code is written here
+.red-border{
+    border:2px solid red;
+}
+.green-border{
+    border:2px solid green;
+}
+
+//button styling is done below
+.delete-btn{
+    float: right;
+}
+.edit-btn{
+    float:right;
+}
+
+button{
+    padding:5px 20px;
+    margin:5px;
+    height: 30px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    color: white;
+    background-color:  #0a50257a;
+    &:hover{
+        box-shadow: 1px 0px 5px black;
+    }
+    &:active{
+        font-weight: bold;
+    }
+
+    &:disabled{
+        background-color: lightgray;
+        box-shadow: none;
+    }
+}
+
+.green-background{
+    background-color: lightgreen;
+}
+
+.red-background{
+    background-color: #ab4e4e;
+}
+
+//Input styling is done below
+input{
+    border:none;
+
+    border-bottom: 2px solid #0a50257a;
+}
+input:disabled{
+    border:none;
+    background-color: white;
+}
+
+ .item-div > input{
+    pointer-events: none;
+}

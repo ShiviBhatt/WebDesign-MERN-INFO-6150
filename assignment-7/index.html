@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google Sheets</title>
+    <link rel="stylesheet" href="./dist/main.css">
+</head>
+<body>
+    <!-- ---------Header----------- -->
+      <header id="header">
+        <p>Google Sheet</p>
+    </header>
+       <!-- ----x-----Header------x----- -->
+    <div id="mainContent" class="mainContainer">
+        <div class="container">
+            <!-- ----------Buttons for various functionality------------------- -->
+            <input type="button" id="addRow" value="Add Row" class="addBtn styleBtn">
+            <input type="button" id="addCol" value="Add Column" class="addBtn styleBtn">
+            <input type="button" id="delRow" value="Delete Row" class="delBtn styleBtn">
+            <input type="button" id="delCol" value="Delete Column" class="delBtn styleBtn"> 
+            <button onClick="window.location.reload();" class="refresh-btn">Refresh Page</button>           
+            <input type="button" id="exportTableToCSV" value="Export HTML Table To CSV File" class="dwBtn styleBtn">
+            <input type="file" id="fileUpload" class="inputFile"/>
+            <label for="fileUpload">Choose a file</label>
+            <input type="button" id="importCSVToTable" value="Import CSV File To HTML Table" class="dwBtn styleBtn">
+           
+              <!-- ----------Buttons for various functionality------------------- -->
+        <div id="table"></div>
+        </div>
+    </div>  
+    
+    <!-- -----------Script-------------- -->
+<script type= "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.4.0/Rx.js"></script>
+    <script src="js/spreadsheet.js"></script>
+      <!-- -----x------Script-------x------- -->
+</body>
+</html>

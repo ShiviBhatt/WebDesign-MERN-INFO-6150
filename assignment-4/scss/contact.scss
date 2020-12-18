@@ -1,0 +1,80 @@
+//---contact----
+.foot-main {
+    background-color: var(--bg-color);
+    margin-bottom: 100px;
+}
+
+.foot-parent {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* ---Brand Name--- Clean Now--- */
+.brand-contact {
+    margin-right: 40px;
+}
+
+.brand-text {
+    font-size: medium;
+    color: $green-color;
+    font-family: $font-family-Roboto;
+}
+
+/* ----Brand Description Formatting ---- */
+.brand-desc,
+.copy-right,
+.brand-link {
+    font-size: 0.7em;
+    color: var(--text-grey);
+    font-family: $font-family-Roboto;
+}
+
+.quesMarkclasss {
+    color: $green-color;
+    height: 4px;
+}
+
+/*--- Brand Item Class--- */
+.brand-items {
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+.brand-quick-view {
+    width: 100px;
+}
+
+/* ----Brand Quick View as Header---- */
+.brand-quick-view-text {
+    font-size: 0.8em;
+    color: var(--text-footer);
+    margin-top: double($lg);
+    margin-bottom: 0px;
+}
+
+.brand-right-margin {
+    width: 40px;
+}
+
+.services-quick-view {
+    width: 140px;
+}
+
+.contact-us-text-margin {
+    margin-bottom: 10px;
+}
+
+.grayish-black {
+    color: #3c3f49;
+    font-family: $font-family-Roboto;
+}
+
+/* ----Hover Effects on href */
+a:hover {
+    color: $green-color;
+}
+
+/* --x----Contact Us------x- */

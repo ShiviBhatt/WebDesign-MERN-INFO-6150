@@ -1,0 +1,119 @@
+// nav bar scss
+
+.nav {
+    background-color: white;
+    // padding: 0 40px;
+    min-height: 10vh;
+    //overflow: scroll;
+    position: fixed;
+    width: 96%;
+    z-index: 7;
+    top: 0;
+    margin-left: 25px;
+}
+
+
+
+/* -----Main Border for Welcome------ */
+.navBorder {
+    margin: 1.5rem;
+    border: 1px solid #939393;
+    padding: 0rem;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    margin-right: 10rem;
+}
+
+/* ---Welcome Text Formatting---- */
+.welcome {
+    position: relative;
+    display: flex;
+    font-size: 0.6rem;
+    color: var(--text-grey);
+}
+
+/* ---Navigation Menu--- */
+.nav-menu {
+    justify-content: space-between;
+
+}
+
+.nav-items {
+    display: flex;
+    margin: 0;
+
+}
+
+
+/* ----Navigation Links--- */
+.nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Abel);
+    font-size: 1.1rem;
+}
+
+/* ----Nabvigation Hover Effects--- */
+.nav-link:hover {
+    background-color: $green-color;
+}
+
+.nav-link:hover a {
+    color: var(--white);
+}
+
+.page {
+    color: $green-color;
+}
+
+.nav-brand a {
+    font-family: var(--Roboto);
+    font-size: 2rem;
+    font-weight: 900;
+    color: $green-color;
+    padding: 1rem 0;
+    display: block;
+    position: relative;
+    margin-left: 10rem;
+}
+
+/* -----Button Hover Effects----- */
+.btn:hover {
+    color: var(--text-gray);
+    background-color: $green-color;
+    border: 1px solid var(--white);
+}
+
+.nav-content-div {
+    margin-right: 11rem;
+}
+
+/* ---Other Content Formatting--- */
+.phone {
+    margin-right: 2rem;
+}
+
+.welcome-text {
+    margin-left: 8.5rem;
+
+}
+
+/* ---Button Formatting--- */
+.request-quote {
+    margin-left: 2rem;
+}
+
+.com a {
+    color: $green-color;
+}
+
+.book-items-description {
+    display: flex;
+}
+
+/*------x-----nav bar----x----------*/

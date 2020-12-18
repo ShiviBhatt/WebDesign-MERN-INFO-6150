@@ -1,0 +1,26 @@
+{
+  "name": "assignment-8-shivi-bhatt",
+  "version": "1.0.0",
+  "description": "\"# assignment-8-shivi-bhatt\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2020/assignment-8-shivi-bhatt.git"
+  },
+  "author": "Shivi Bhatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2020/assignment-8-shivi-bhatt/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2020/assignment-8-shivi-bhatt#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4"
+  }
+}

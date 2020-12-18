@@ -1,0 +1,50 @@
+// Team SCSS
+
+.testimonial-image {
+    width: (100px+40); //Mathematical operator used
+    height: (100px+20); //Mathematical operator used
+}
+
+.img-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ----Testimonial Description formatting--- */
+.testimonial-desc {
+    color: grey;
+    font-size: 0.7em;
+    max-width: (100px*7); //Mathematical operator used
+    padding: 0px;
+    display: block;
+    overflow: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-family: $font-family-Roboto;
+}
+
+/* ----Testimonial Button formatting--- */
+.testimonial-button {
+    background-color: $green-color;
+    color: white;
+    border-width: 0;
+    padding: 10px;
+    display: block;
+    overflow: auto;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+}
+
+.testimonial-button-container {
+    margin-top: double($lg);
+    margin-bottom: double($lg);
+}
+
+/* ----Testimonial Button Hover Effects---- */
+.testimonial-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* -x---Testimonial CSS--x---- */

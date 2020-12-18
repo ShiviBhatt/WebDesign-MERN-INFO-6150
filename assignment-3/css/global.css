@@ -1,0 +1,86 @@
+html,
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+:root {
+
+    /* theme colors*/
+    --text-gray: #3f4954;
+    --text-grey: #939393;
+    --text-light: #686666da;
+    --text-green: #31a39f;
+    --bg-color: #f9f9f9;
+    --white: #ffffff;
+    --midnight: #104f55;
+    --text-footer: #636363;
+
+
+    /*Gradient Color*/
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+
+    /* theme font-family*/
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin: 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic: 'Livvic', cursive;
+    --Roboto: 'Roboto', cursive;
+
+}
+
+/*------------Global Class--------*/
+
+
+a {
+    text-decoration: none;
+    color: var(--text-gray)
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ---Multi Selectors--- */
+h5,
+h6 {
+    font-family: var(--Livvic);
+    font-size: 0.9rem;
+}
+
+/* h1 {
+    font-family: var(--Livvic);
+    font-size: 0.9rem;
+} */
+
+h2 {
+    font-family: var(--Lexend);
+    color: var(--text-green);
+}
+
+/* ----Global Button Class---- */
+button.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    background-color: var(--text-green);
+    color: var(--white);
+}
+
+
+
+
+/*----x--------Global Class----x----*/

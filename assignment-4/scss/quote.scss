@@ -1,0 +1,109 @@
+// Quote SCSS
+.content .quote-heading {
+
+    color: $green-color;
+    text-align: center;
+    font-size: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content form {
+    margin-bottom: 90px;
+}
+
+/* ---Quote Content form formatting---- */
+.content {
+    margin-top: (600-300px); //subtract mathematical operator used
+    margin-left: (2400px/2); //Division mathematical operator used
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 300px;
+    padding: double($lg) 60px;
+    margin-right: 140px;
+    background-color: white;
+    padding-bottom: 120px;
+
+}
+
+/*----- Quote input formatting---- */
+.content input {
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    border: none;
+    background-color: #efefef;
+
+}
+
+.content textarea {
+    width: 200px;
+    height: 60px;
+    background-color: #efefef;
+    border: none;
+}
+
+.content::placeholder {
+    text-align: left;
+}
+
+
+/* ---Quote Button formatting---- */
+.msg-submit {
+    width: 175px;
+    background-color: $green-color;
+    color: white;
+    border-width: 0;
+    padding: 15px;
+    margin-top: double($lg);
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    font-weight: bold;
+    font-size: 0.5em;
+}
+
+/* -----Quote Button Hover Effects---- */
+.msg-submit:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.backgroundImageCVR {
+    position: relative;
+    padding: 15px;
+
+}
+
+
+/* ---Quote background image formatting---- */
+.background-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    height: 700px;
+    background: url('../assets/form-backgroundx.png');
+    background-size: cover;
+    z-index: 1;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+/* -----x----Quote CSS----x------- */
