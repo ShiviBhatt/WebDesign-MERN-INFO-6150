@@ -1,6 +1,5 @@
 <h1 align="center">
-       <img src="https://user-images.githubusercontent.com/71218150/102064201-dfe59880-3dab-11eb-85bc-2c14c746876e.png" alt="Girl in a jacket"><br>
-       INSTAGRAM CLONE
+       SOCIAL MEDIA APP <br>
 </h1>
 <p align="center">
 🌐 MERN Stack (MongoDB, Expressjs, React/Redux, Nodejs)<br>
